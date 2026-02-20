@@ -1,0 +1,55 @@
+/* Sidebar Container */
+aside {
+    width: var(--sidebar-width) !important;
+    background-color: var(--bg-sidebar) !important;
+    border-right: 1px solid var(--border-color) !important;
+    box-shadow: var(--shadow-sm);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 50;
+    overflow-y: auto;
+}
+
+/* Fix main content to respect fixed sidebar */
+main {
+    margin-left: var(--sidebar-width);
+    width: calc(100% - var(--sidebar-width)) !important;
+    background-color: var(--bg-body);
+}
+
+/* Navigation Items */
+nav a {
+    margin: 4px 12px;
+    border-radius: 8px !important;
+    transition: all var(--transition-fast) !important;
+    color: var(--text-muted) !important;
+    font-weight: 500 !important;
+}
+
+nav a:hover {
+    background-color: #f1f5f9 !important;
+    /* Slate 100 */
+    color: var(--secondary) !important;
+    transform: translateX(4px);
+}
+
+/* Active State (detected via class presence, strictly styling) */
+nav a[class*="bg-white"] {
+    background-color: #f0fdf4 !important;
+    /* Light Green Tint example or plain white */
+    background: linear-gradient(to right, #ffffff, #f8fafc) !important;
+    border-left: 4px solid var(--primary) !important;
+    border-radius: 4px 8px 8px 4px !important;
+    box-shadow: var(--shadow-sm) !important;
+}
+
+/* Sidebar Header */
+aside>div:first-child {
+    height: var(--header-height);
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--border-color);
+    padding: 0 24px !important;
+}

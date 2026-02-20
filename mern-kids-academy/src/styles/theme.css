@@ -1,0 +1,41 @@
+:root {
+    /* Brand Colors */
+    --primary: #5b21b6;
+    /* Deep Purple */
+    --primary-light: #7c3aed;
+    --primary-dark: #4c1d95;
+
+    --secondary: #0f172a;
+    /* Slate 900 */
+
+    /* UI Colors */
+    --bg-body: #f8fafc;
+    --bg-sidebar: #ffffff;
+    --bg-card: #ffffff;
+
+    --border-color: #e2e8f0;
+
+    /* Text */
+    --text-main: #1e293b;
+    --text-muted: #64748b;
+    --text-inverted: #ffffff;
+
+    /* Spacing */
+    --sidebar-width: 280px;
+    --header-height: 70px;
+
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+
+    /* Transitions */
+    --transition-fast: 0.2s ease;
+}
+
+body {
+    background-color: var(--bg-body) !important;
+    color: var(--text-main) !important;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}

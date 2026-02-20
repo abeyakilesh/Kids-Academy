@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - MERN Kids Academy</title>
+</head>
+
+<body>
+
+    <div class="app-layout">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">MERN Academy</div>
+            </div>
+            <nav class="sidebar-nav">
+                <ul>
+                    <li><a href="dashboard.html" class="active">Dashboard</a></li>
+                    <li><a href="modules.html">My Courses</a></li>
+                    <li><a href="#">Achievements</a></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>
+            </nav>
+            <div class="user-profile">
+                <!-- User Avatar & unexpected -->
+                <div class="avatar"></div>
+                <span>Student One</span>
+            </div>
+        </aside>
+
+        <!-- Main Layout -->
+        <div class="main-wrapper">
+            <!-- Top Navbar -->
+            <header class="top-navbar">
+                <div class="breadcrumbs">Home > Dashboard</div>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search courses...">
+                </div>
+            </header>
+
+            <!-- Dashboard Content -->
+            <main class="dashboard-content">
+                <h1>Welcome Back, Student!</h1>
+
+                <!-- Progress Overview -->
+                <section class="progress-overview">
+                    <div class="stat-card">
+                        <h3>Level 3</h3>
+                        <p>Current Rank</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>75%</h3>
+                        <p>Total Progress</p>
+                    </div>
+                </section>
+
+                <!-- Current Courses -->
+                <section class="course-list">
+                    <h2>Continue Learning</h2>
+                    <div class="course-card">
+                        <div class="course-icon">⚛️</div>
+                        <div class="course-info">
+                            <h3>Frontend Mastery</h3>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 40%"></div>
+                            </div>
+                            <a href="modules.html" class="btn-resume">Resume</a>
+                        </div>
+                    </div>
+                    <!-- More cards... -->
+                </section>
+
+            </main>
+        </div>
+    </div>
+
+</body>
+
+</html>

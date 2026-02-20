@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Editor - MERN Kids Academy</title>
+</head>
+
+<body>
+
+    <div class="app-layout editor-layout">
+        <!-- Sidebar -->
+        <aside class="sidebar collapsed">
+            <div class="icon-nav">
+                <a href="dashboard.html">🏠</a>
+            </div>
+        </aside>
+
+        <div class="main-wrapper">
+            <header class="top-navbar">
+                <div class="challenge-title">Mission: Create a Counter</div>
+                <button class="btn-run">▶ Run Code</button>
+            </header>
+
+            <main class="editor-workspace">
+                <!-- Instructions Panel -->
+                <section class="instructions-panel">
+                    <h3>Instructions</h3>
+                    <p>1. Initialize state for `count`.</p>
+                    <p>2. Create a button that increments `count`.</p>
+                </section>
+
+                <!-- Code Editor Area -->
+                <section class="code-editor-container">
+                    <div class="editor-header">App.jsx</div>
+                    <div class="monaco-placeholder">
+                        <pre><code>
+function App() {
+  // Write your code here...
+  return <div>Hello</div>;
+}
+                        </code></pre>
+                    </div>
+                </section>
+
+                <!-- Output Console -->
+                <section class="output-console">
+                    <div class="console-header">Console / Preview</div>
+                    <div class="console-body">
+                        Waiting for code execution...
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+@import './styles/theme.css';
+@import './styles/sidebar.css';
+@import './styles/dashboard.css';
+@import './styles/lesson.css';
+@import './styles/editor.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom fonts or global styles can go here */
+body {
+  margin: 0;
+  padding: 0;
+}

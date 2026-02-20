@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Modules - MERN Kids Academy</title>
+</head>
+
+<body>
+
+    <div class="app-layout">
+        <!-- Sidebar (Same as Dashboard) -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">MERN Academy</div>
+            </div>
+            <nav class="sidebar-nav">
+                <ul>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="modules.html" class="active">My Courses</a></li>
+                    <li><a href="#">Achievements</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <div class="main-wrapper">
+            <header class="top-navbar">
+                <div class="breadcrumbs">Home > React Mastery</div>
+            </header>
+
+            <main class="modules-content">
+                <div class="course-header">
+                    <h1>Level 3: Frontend Mastery</h1>
+                    <p>Master React.js with these 8 essential modules.</p>
+                </div>
+
+                <div class="modules-grid">
+                    <!-- Module Item -->
+                    <div class="module-card completed">
+                        <div class="module-icon">✅</div>
+                        <div class="module-details">
+                            <h3>3.1: Components</h3>
+                            <p>Introduction to JSX and components.</p>
+                        </div>
+                        <a href="lesson.html" class="btn-review">Review</a>
+                    </div>
+
+                    <!-- Module Item -->
+                    <div class="module-card active">
+                        <div class="module-icon">▶️</div>
+                        <div class="module-details">
+                            <h3>3.2: State & Events</h3>
+                            <p>Making things interactive.</p>
+                        </div>
+                        <a href="lesson.html" class="btn-start">Start</a>
+                    </div>
+
+                    <!-- Module Item -->
+                    <div class="module-card locked">
+                        <div class="module-icon">🔒</div>
+                        <div class="module-details">
+                            <h3>3.3: Lists & Keys</h3>
+                            <p>Rendering arrays of data.</p>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+</body>
+
+</html>

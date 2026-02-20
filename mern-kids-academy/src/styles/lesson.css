@@ -1,0 +1,70 @@
+/* Lesson Container */
+.prose {
+    max-width: 800px !important;
+    color: var(--text-main) !important;
+}
+
+.prose h2 {
+    font-size: 2.25rem !important;
+    letter-spacing: -0.03em;
+    color: var(--secondary) !important;
+    margin-bottom: 1.5rem !important;
+}
+
+.prose p {
+    line-height: 1.7;
+    color: var(--text-muted);
+    margin-bottom: 1.5rem;
+}
+
+/* Explanation Box */
+.prose .bg-white {
+    background: white !important;
+    border: 1px solid var(--border-color) !important;
+    border-left: 5px solid var(--primary) !important;
+    border-radius: 8px !important;
+    box-shadow: var(--shadow-sm) !important;
+}
+
+/* Progress Stepper buttons */
+button[class*="flex flex-col"] {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+button[class*="flex flex-col"]:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+/* Step Line Fix */
+.absolute.bg-slate-200 {
+    background-color: var(--border-color) !important;
+    height: 2px !important;
+}
+
+/* Navigation Buttons (Back/Next) */
+button[class*="bg-blue-600"] {
+    background-color: var(--secondary) !important;
+    /* Dark theme for primary actions */
+    color: white !important;
+    border-radius: 8px !important;
+    padding: 12px 32px !important;
+    font-weight: 600 !important;
+    box-shadow: var(--shadow-md) !important;
+}
+
+button[class*="bg-blue-600"]:hover {
+    background-color: black !important;
+    transform: translateY(-1px);
+}
+
+button[class*="text-slate-600"] {
+    color: var(--text-muted) !important;
+    font-weight: 500 !important;
+}
+
+button[class*="text-slate-600"]:hover {
+    background-color: var(--bg-body) !important;
+    color: var(--secondary) !important;
+}

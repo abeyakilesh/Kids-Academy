@@ -1,0 +1,32 @@
+/* Code Editor Container */
+.monaco-editor-container {
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-md);
+}
+
+/* Output Console */
+.bg-slate-900 {
+    background-color: #1e1e1e !important;
+    /* VS Code Dark */
+    border-radius: 8px !important;
+    color: #d4d4d4 !important;
+    font-family: 'Fira Code', monospace;
+}
+
+/* Visualizer Containers */
+div[class*="bg-indigo-50"],
+div[class*="bg-blue-50"],
+div[class*="bg-slate-50"] {
+    background-color: white !important;
+    border: 1px solid var(--border-color) !important;
+    box-shadow: var(--shadow-sm) !important;
+    border-radius: 12px !important;
+}
+
+/* Visualizer Canvas Background */
+main {
+    background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
+    background-size: 24px 24px;
+}
